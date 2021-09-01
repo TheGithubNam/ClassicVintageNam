@@ -1,14 +1,19 @@
 .navbar { 
     font-family: Copperplate; 
     font-size: 20px;
-    background-color:gold !important;
+    background-image: linear-gradient(to right, gold, rgb(242, 236, 221)); 
+
 }
 
 
 h1, h2, h3, h4, h5 {
-    font-family:Copperplate;
+    font-family: Copperplate;
 }
 
+.card {
+    background-color: rgb(242, 236, 221);
+
+}
 
 .card-img-top {
     width: 100%;
@@ -18,13 +23,11 @@ h1, h2, h3, h4, h5 {
 }
 
 #enquiries {
-    background-color:rgba(192, 192, 192, 0.166) ;
+    background-color: rgb(242, 236, 221);
     padding: 4%;
 }
 
-div {
-    padding: 5px;
-  }
+
 
 .map-responsive{
 
@@ -52,4 +55,8 @@ div {
 }
 
 
+
+a {
+    color: goldenrod;
+}
 
